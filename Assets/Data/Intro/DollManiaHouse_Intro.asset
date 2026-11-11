@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7894f23f8843f1945b5e634cf9fcf2b5, type: 3}
+  m_Name: DollManiaHouse_Intro
+  m_EditorClassIdentifier: Assembly-CSharp::MapIntroScript
+  useRealTime: 1
+  clock: 23:47
+  areaCode: OPERATION AREA 01
+  areaLabel: "\uC791\uC804\uC9C0\uC5ED"
+  areaName: "\uC778\uD615 \uB9C8\uB2C8\uC544\uC758 \uC9D1"
+  areaDetail: "\uC8FC\uD0DD 2\uCE35 \xB7 \uC218\uC9D1 \uC778\uD615 \uC57D 300\uC810"
+  complaints:
+  - "\uBBFC\uC6D0 1 \xB7 \uBC24\uB9C8\uB2E4 \uC6C3\uC74C\uC18C\uB9AC"
+  - "\uBBFC\uC6D0 2 \xB7 \uC778\uD615 \uC790\uB9AC\uAC00 \uBC14\uB01C"
+  bandAreaCode: AREA 01
+  speaker: "\uD55C \uC8FC\uC784"
+  lines:
+  - time: 3.5
+    text: "\uB3C4\uCC29\uD588\uB0D0. \uC778\uD615 \uBAA8\uC73C\uB294 \uC9D1\uC774\uB2E4."
+  - time: 6.6
+    text: "\uBBFC\uC6D0\uC740 \uB450 \uAC1C. \uBC24\uB9C8\uB2E4 \uC6C3\uC74C\uC18C\uB9AC,
+      \uC544\uCE68\uB9C8\uB2E4 \uC778\uD615 \uC790\uB9AC\uAC00 \uBC14\uB010\uB2E4."
+  - time: 10.5
+    text: "\uC778\uD615\uC774 \uBA87\uBC31 \uAC1C\uB2E4. \uADF8\uC911\uC5D0 \uC778\uD615
+      \uC544\uB2CC \uAC8C \uC11E\uC5EC \uC788\uC5B4."
+  - time: 13.9
+    text: "\uD55C \uBC14\uD034 \uC798 \uBD10 \uB46C. \uB4E4\uC5B4\uAC00\uBA74 \uB2E4
+      \uB611\uAC19\uC544 \uBCF4\uC778\uB2E4."
+  - time: 17.5
+    text: "...\uC2DC\uC791\uD574."
+  lastLineSeconds: 1.8
+  wrongGuessLine: "\uCD95\uD558\uD55C\uB2E4. \uBA40\uCA61\uD55C \uBB3C\uAC74 \uD558\uB098
+    \uC7A1\uC558\uB124."
+  stainWarningLine: "\uC5BC\uB8E9 \uAF34 \uBD10\uB77C. \uC9D1\uC8FC\uC778 \uAE68\uAE30
+    \uC804\uC5D0 \uB2E6\uC544."
+  typeCharSeconds: 0.035
+  typeStartDelay: 0.3
+  cardFoldTime: 3.5
+  foldSeconds: 0.4
+  stampTime: 17.5
+  stampSeconds: 1.6
+  releaseTime: 18.3
+  stampText: "\uC791\uC804 \uAC1C\uC2DC"
+  stampSubFormat: "\uD3EC\uD68D \uB300\uC0C1 \uBE48\uB300 {0}\uB9C8\uB9AC"

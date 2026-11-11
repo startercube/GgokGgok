@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7894f23f8843f1945b5e634cf9fcf2b5, type: 3}
+  m_Name: HalloweenNight_Intro
+  m_EditorClassIdentifier: Assembly-CSharp::MapIntroScript
+  useRealTime: 1
+  clock: 23:47
+  areaCode: OPERATION AREA 02
+  areaLabel: "\uC791\uC804\uC9C0\uC5ED"
+  areaName: "\uD560\uB85C\uC708 \uBB18\uC9C0 \uC138\uD2B8\uC7A5"
+  areaDetail: "\uD30C\uD2F0 \uB300\uC5EC\uC5C5\uCCB4 \uCC3D\uACE0 \xB7 \uC57C\uAC04
+    \uC18C\uB4F1"
+  complaints:
+  - "\uBBFC\uC6D0 1 \xB7 \uD638\uBC15\uC774 \uD558\uB098\uC529 \uC0AC\uB77C\uC9D0"
+  - "\uBBFC\uC6D0 2 \xB7 \uC544\uBB34\uB3C4 \uC5C6\uB294\uB370 \uC6C3\uC74C\uC18C\uB9AC"
+  bandAreaCode: AREA 02
+  speaker: "\uD55C \uC8FC\uC784"
+  lines:
+  - time: 3.5
+    text: "\uB450 \uBC88\uC9F8 \uD604\uC7A5. \uD30C\uD2F0 \uC18C\uD488 \uCC3D\uACE0\uB2E4."
+  - time: 6.6
+    text: "\uD638\uBC15\uC774 \uD558\uB098\uC529 \uC5C6\uC5B4\uC9C4\uB304\uB2E4.
+      \uBA39\uD78C \uAC70\uC9C0."
+  - time: 10.5
+    text: "\uC5B4\uB450\uC6CC\uC11C \uC798 \uC548 \uBCF4\uC77C \uAC70\uB2E4. \uC704\uB3C4
+      \uBD10 \uB46C."
+  - time: 13.9
+    text: "\uC6C3\uC74C\uC18C\uB9AC \uB4E4\uB9AC\uBA74 \uADF8\uCABD\uC774\uB2E4.
+      \uADC0 \uC5F4\uC5B4."
+  - time: 17.5
+    text: "...\uAC00\uC790."
+  lastLineSeconds: 1.8
+  wrongGuessLine: "\uADF8\uB140\uC11D\uC740 \uBB34\uC8C4\uC57C."
+  stainWarningLine: "\uBC14\uB2E5\uC774 \uC6C3\uC74C \uCC9C\uC9C0\uB2E4. \uBE68\uB9AC
+    \uB2E6\uC544."
+  typeCharSeconds: 0.035
+  typeStartDelay: 0.3
+  cardFoldTime: 3.5
+  foldSeconds: 0.4
+  stampTime: 17.5
+  stampSeconds: 1.6
+  releaseTime: 18.3
+  stampText: "\uC791\uC804 \uAC1C\uC2DC"
+  stampSubFormat: "\uD3EC\uD68D \uB300\uC0C1 \uBE48\uB300 {0}\uB9C8\uB9AC"
